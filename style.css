@@ -105,7 +105,7 @@ END Glitch hello-app default styles
 h1,h2,h3,h4,h5,h6,p {
   font-family: 'Antonio', bold;
   color: var(--color-text-main);
-  letter-spacing: 1vw;
+  
 }
 
 body {  
@@ -139,16 +139,10 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-
+  letter-spacing: 1vw;
 }
 
 .smaller-box {
-  /*
-  background-color: #C63950;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #C63950;
-  border-width:25px;*/
   border-radius: 10px;
   background: url(https://cdn.glitch.com/9987bfb1-07d8-4788-bc24-b9dc0f197f1d%2Funtitled.png?v=1620241180621);
   width: 50vw;
